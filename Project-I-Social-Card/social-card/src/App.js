@@ -1,5 +1,9 @@
 import React from 'react';
 import './App.css';
+import './components/HeaderComponents/HeaderContainer.js';
+import './components/HeaderComponents/HeaderContent.js';
+import './components/HeaderComponents/HeaderTitle.js';
+
 
 const App = () => {
   return (
