@@ -7,8 +7,10 @@ import CardBanner from './CardBanner'
 const CardContainer = () => {
   return (
     <div>
-      <CardBanner /> 
+      <a  href="https://www.reactjs.org" target="blank">
+      <CardBanner />
       <CardContent />
+      </a>
     </div>
   )
 }
