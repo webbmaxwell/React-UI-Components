@@ -1,4 +1,5 @@
 import React from 'react';
+import HeaderContent from './HeaderContent'
 import './Header.css';
 
 const HeaderContainer = () => {
@@ -6,7 +7,6 @@ const HeaderContainer = () => {
     <HeaderContent />
   )
 }
-
 
 
 
