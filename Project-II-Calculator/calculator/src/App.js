@@ -3,15 +3,30 @@ import './App.css';
 import NumberButton from './components/ButtonComponents/NumberButton.js'
 import ActionButton from './components/ButtonComponents/ActionButton.js'
 import Display from './components/DisplayComponents/CalculatorDisplay.js'
+import OperatorButton from './components/ButtonComponents/OperatorButtons.js'
 
 const numbers = [7, 8, 9, 4, 5, 6, 1, 2, 3]
 
 function App() {
   return (
     <div className="app">
-      <NumberButton value="7"/>
-      <ActionButton />
       <Display />
+      <ActionButton text="clear"/>
+      <OperatorButton text="/" />
+      <NumberButton text="7" />
+      <NumberButton text="8" />
+      <NumberButton text="9" />
+      <OperatorButton text="X" />
+      <NumberButton text="4" />
+      <NumberButton text="5" />
+      <NumberButton text="6" />
+      <OperatorButton text="-" />
+      <NumberButton text="1" />
+      <NumberButton text="2" />
+      <NumberButton text="3" />
+      <OperatorButton text="+" />
+      <ActionButton text="0" />
+      <OperatorButton text="=" />
     </div>
   );
 };
