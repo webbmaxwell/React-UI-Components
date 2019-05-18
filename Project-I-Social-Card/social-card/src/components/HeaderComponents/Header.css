@@ -2,7 +2,6 @@
 .header {
   display: flex;
   flex-direction: column;
-  padding: 15px;
 }
 
 .title {
@@ -14,10 +13,8 @@
 #at {
   font-size: 12px;
   color: grey;
-  padding-left: 10px;
   align-self: center;
 }
 
 .image {
-  padding: 10px;
 }
