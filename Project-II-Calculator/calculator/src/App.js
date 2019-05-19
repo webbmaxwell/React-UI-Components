@@ -5,7 +5,7 @@ import ActionButton from './components/ButtonComponents/ActionButton.js'
 import Display from './components/DisplayComponents/CalculatorDisplay.js'
 import OperatorButton from './components/ButtonComponents/OperatorButtons.js'
 
-const numbers = [7, 8, 9, 4, 5, 6, 1, 2, 3]
+const numbers = [7, 8, 9, 4, 5, 6, 1, 2, 3, 0]
 
 function App() {
   return (
@@ -13,19 +13,19 @@ function App() {
       <Display />
       <ActionButton text="clear"/>
       <OperatorButton text="/" />
-      <NumberButton text="7" />
-      <NumberButton text="8" />
-      <NumberButton text="9" />
+      <NumberButton text={numbers[0]} buttonStyle="number-button"/>
+      <NumberButton text={numbers[1]}  buttonStyle="number-button"/>
+      <NumberButton text={numbers[2]}  buttonStyle="number-button"/>
       <OperatorButton text="X" />
-      <NumberButton text="4" />
-      <NumberButton text="5" />
-      <NumberButton text="6" />
+      <NumberButton text={numbers[3]}  buttonStyle="number-button"/>
+      <NumberButton text={numbers[4]}  buttonStyle="number-button"/>
+      <NumberButton text={numbers[5]}  buttonStyle="number-button"/>
       <OperatorButton text="-" />
-      <NumberButton text="1" />
-      <NumberButton text="2" />
-      <NumberButton text="3" />
+      <NumberButton text={numbers[6]}  buttonStyle="number-button"/>
+      <NumberButton text={numbers[7]}  buttonStyle="number-button"/>
+      <NumberButton text={numbers[8]}  buttonStyle="number-button"/>
       <OperatorButton text="+" />
-      <ActionButton text="0" />
+      <ActionButton text={numbers[9]}  buttonStyle="number-button"/>
       <OperatorButton text="=" />
     </div>
   );
