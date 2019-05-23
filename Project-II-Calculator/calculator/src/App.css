@@ -1,0 +1,10 @@
+html {
+  background-color: grey;
+}
+
+.app {
+  display: flex;
+  flex-wrap: wrap;
+  width: 250px;
+  padding: 50px 40%;
+}

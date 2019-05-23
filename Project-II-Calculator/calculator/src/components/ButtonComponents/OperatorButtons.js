@@ -1,12 +1,12 @@
 import React from 'react';
 import './Button.css';
 
-const ActionButton = (props) => {
+const OperatorButton = (props) => {
   return (
-    <div class="action-button">
+    <div className="operator-button">
       <p>{props.text}</p>
     </div>
   )
 };
 
-export default ActionButton
+export default OperatorButton

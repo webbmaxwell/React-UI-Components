@@ -1,1 +1,9 @@
 /* All styles for your Card Components live here */
+#link {
+  color: grey;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
